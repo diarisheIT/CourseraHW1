@@ -2,16 +2,53 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 115%;
 }
-nav{
-    background-color: cadetblue;
-}
 header{
     background-color: lightgray;
 }
 
-li{
+nav{
     display: inline-block;
-    width: 180px;
+    width: 80%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 80%;
+}
+
+#current{
+    background-color: grey;
+}
+
+/* li{
+    display: list-item;
+    text-align: ;
+} */
+
+#previewPhoto{
+    width:10%;
+    position: relative;
+    top:20px
+}
+
+#neighborhoodPhotos{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    row-gap: 10px;
+    justify-content: space-around;
+}
+
+
+#neighborhoodPhotos img{
+    width: 100%;
+}
+
+#parksGallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 footer{
